@@ -1,0 +1,78 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Ancestral Calculator" Height="415" Width="515"
+        MinWidth="515" MinHeight="415" MaxWidth="515" MaxHeight="415">
+    <Grid Margin="0,0,-8,-21">
+        <TextBox PreviewTextInput="NumericOnly" Name="numbersPanel" Margin="10,10,0,0" FontSize="48" TextAlignment="Right" Height="69" VerticalAlignment="Top" HorizontalAlignment="Left" Width="472">
+            0
+        </TextBox>
+        <Button Name="btnDiv" Content="÷" x:FieldModifier="public"
+            Margin="377,91,0,0"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" Width="105" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnNine" Content="9"
+            Margin="254,91,0,0"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" Width="105" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnEight" Content="8"
+            HorizontalAlignment="Left"
+            Margin="132,91,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnSeven" Content="7"
+            Margin="10,91,0,0"
+            Cursor="Hand" HorizontalAlignment="Left" Width="105" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnTimes" Content="×"
+            HorizontalAlignment="Left"
+            Margin="377,163,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnSix" Content="6"
+            Margin="254,163,0,0"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" Width="105" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnFive" Content="5"
+            HorizontalAlignment="Left"
+            Margin="132,163,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnFour" Content="4"
+            Margin="10,163,0,0"
+            Cursor="Hand" HorizontalAlignment="Left" Width="105" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnPast" Content="−"
+            HorizontalAlignment="Left"
+            Margin="377,233,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnThree" Content="3"
+            Margin="254,233,0,0"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" Width="105" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnTwo" Content="2"
+            HorizontalAlignment="Left"
+            Margin="132,233,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnOne" Content="1"
+            Margin="10,233,0,0"
+            Cursor="Hand" HorizontalAlignment="Left" Width="105" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnPlus" Content="+"
+            HorizontalAlignment="Left"
+            Margin="377,305,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnEqual" Content="="
+            HorizontalAlignment="Left"
+            Margin="254,305,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="White" Background="#FF4D8EFF"/>
+        <Button Name="btnDecimal" Content=","
+            HorizontalAlignment="Left"
+            Margin="132,305,0,0"
+            Width="105"
+            Cursor="Hand" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+        <Button Name="btnZero" Content="0"
+            Margin="10,305,0,0"
+            Cursor="Hand" HorizontalAlignment="Left" Width="105" Height="54" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+    </Grid>
+</Window>
