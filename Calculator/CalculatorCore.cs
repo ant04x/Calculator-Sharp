@@ -153,6 +153,7 @@ namespace Calculator
             };
         }
 
+        // Método que procesa la expresión en String y devuelve un objeto para imprimir por pantalla.
         private static object ProcessExpression(string expression)
         {
             Expression e = new Expression(expression);
